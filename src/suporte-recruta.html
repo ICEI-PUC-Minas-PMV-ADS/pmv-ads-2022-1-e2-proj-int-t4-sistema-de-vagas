@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/vagas.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-dark ">
+    <a href="index.html" class="logo"><img src="img/logo.png"></a>		
+    <!-- Collection of nav links, forms, and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse">		
+      <div class="navbar-nav" id='navbar-nav' >
+        <a href="candidatos.html" class="nav-item nav-link active"><i class="fa fa-home"></i><span>Candidatos</span></a>
+        <a href="vagas-recruta.html" class="nav-item nav-link"><i class="fa fa-gears"></i><span>Vagas Postadas</span></a>
+        <a href="cadastro-vaga2.html" class="nav-item nav-link"><i class="fa fa-users"></i><span>Nova vaga</span></a>
+        <a href="suporte-recruta.html" class="nav-item nav-link"><i class="fa fa-pie-chart"></i><span>Suporte</span></a>
+        </div>
+    <div class="navbar-nav ml-auto">			
+        <a href="#" class="nav-item nav-link"><i class="fa fa-bell"></i><span><img src="img/notificacao.png" class="avatar" alt="notificacao"></a></span></a>
+        <div class="nav-item dropdown">
+          <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle user-action"><img src="img/perfil-recruta.png" class="perfol" alt="Avatar">Meu perfil<b class="caret"></b></a>
+          <div class="dropdown-menu">
+            <a href="alterar-cadastro-recruta.html" class="dropdown-item"><i class="fa fa-calendar-o"></i>Configurações</a>
+            <div class="divider dropdown-divider"></div>
+            <a href="login2.html" class="dropdown-item">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+   <!-- /.SUPORTE -->
+   <section class="container py-5 height-full align-itens-center" id="atendimento">
+    <div class="row justify-content-center">
+      <h1>Suporte</h1>
+      <p class="text-align-center"> Tem dúvidas? Aqui você encontra dicas para efetuar sua candidatura sem problemas. Fale conosco para obter mais informações sobre os nossos serviços.
+      </p><br>
+      <div class="col-auto mb-3">
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Dúvidas Frequentes</h5>
+            <p class="card-text">Como faça para cadastrar meu currículo
+              no <b>OcupAÊ.com.br?</b> </p>
+              <p class="card-text">Esqueci minha senha, o que devo fazer?</p>
+              <p class="card-text"> Quais são os serviços disponíveis no
+              OcupAÊ?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto mb-3">
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Dicas de segurança</h5>
+            <p class="card-text">Cuidados na hora do acesso aos
+              canais digitais.</p>
+              <p class="card-text">Há risco em sobrepor o aplicativo no
+                meu celular?</p>
+                <p class="card-text">Tudo mundo consegue ver quais
+                  vagas me candidatei? ?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto mb-3">
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Fale conosco</h5>
+            <p class="card-text">Email: sacocupae@gmail.com     </p>
+            <p class="card-text">  1231 0012 (Capitais e regiões metropolitanas)</p>
+            <p class="card-text">0800 411 61212
+  (Demais regiões) </p>
+            <a href="#" class="card-link"></a>
+            <a href="#" class="card-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script>var $doc = $('html, body');
+      $('.scrollSuave').click(function() {
+          $doc.animate({
+              scrollTop: $( $.attr(this, 'href') ).offset().top
+          }, 500);
+          return false;
+      });</script>
+</body>
+</html>

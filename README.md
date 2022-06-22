@@ -1,23 +1,21 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Eixo 2 -3° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O presente trabalho tem como fundamentos o preenchimento de lacunas na captação de posições em aberto no mercado de trabalho, a celeridade ao processo de contratação e, em uma abordagem mais abrangente, o papel facilitador na retomada da economia e no quadro de desemprego recente, visto que o país atingiu a taxa de desemprego de 12,6%, segundo o Instituto Brasileiro de Geografia e Estatística (IBGE, 2021).
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Icaro Yan Miranda
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
+
 
 ## Instruções de utilização
 

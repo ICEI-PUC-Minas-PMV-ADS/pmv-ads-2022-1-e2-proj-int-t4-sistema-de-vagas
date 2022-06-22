@@ -1,0 +1,56 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/vagas.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<body class="bg">
+
+   <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+	<a href="index.html" class="logo"><img src="img/logo.png"></a>		
+	<!-- Collection of nav links, forms, and other content for toggling -->
+	<div id="navbarCollapse" class="collapse navbar-collapse">		
+	<div class="navbar-nav ml-auto">			
+	 <div><span>Escolha seu perfil: <select class="perfil-user textchild-estilo"  id="tipoConta" onchange="location = this.value;" >
+			   <option value="login2.html"> Recrutador</option>
+                      <option class="textchild-estilo"  value="login.html">  Candidato </option> 
+                  
+               </select> </p>
+                </div>
+	   </div>
+	</div>
+</nav>
+   <section class="section mt-5">
+    <BR>
+      <div class="container margin-login">
+         <div class="row">
+            <div class="col-md-6">
+               <div >
+                  <h2  class="fade-anim">Bem-vindo recrutador </h2> 
+                   <h2 class="fade " > Pronto para achar o seu</h2>  
+                   <h2 class="fade-in fade "> profissional ideal? </h2>
+               </div>
+            </div>
+            <div class="center-login col-md-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
+               <div>
+                  <form  class="align-icontent-center"  method="get" action="vagas-recruta.html">
+                     <div class="input-box-login">
+                        <input class=" conta login textchild-estilo" id="conta" name="conta" maxlength="50" required type="email"/>
+                        <label  class="conta login textchild-estilo" for="conta">Email</label>
+                     </div>
+                     
+                     <div class="input-box-login">
+                        <input class="  login textchild-estilo" id="ComplementoOpc" name="ComplementoOpc" maxlength="50" required type="password"/>
+                        <label  class=" login textchild-estilo" for="ComplementoOpc">Senha de acesso</label>
+                     </div>
+                    <button type="submit" class="botao-acessar-conta">Entrar </button>
+                     <br>
+                     <a href="#"> Esqueceu sua senha?</a>
+                     <br>
+                     <a href="cadastro.html">Quero me cadastrar</a>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>

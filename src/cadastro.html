@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vagas.css" rel="stylesheet">
+
+</head>
+
+
+
+<body class="branco">
+
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+        <a href="index.html" class="logo"><img src="img/logo.png"></a>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <div class="navbar-nav ml-auto">
+                <a href="suporte-candidato.html" class="nav-item nav-link"><i
+                        class="fa fa-pie-chart"></i><span>Suporte</span></a>
+                <a href="login.html" class="nav-item nav-link"> <button type="submit" class="botao-acessar-conta"
+                        id="AcessarConta">Acessar conta</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO -->
+
+
+
+    <div class="container-fluid  ">
+
+        <div class="row justify-content-center">
+            <div class="col-auto mb-3">
+
+
+                <br> <br> <br> <br> 
+                <div class=" card-dados-form" id="pagina1">
+                    <div class="card-body">
+
+                        <span>
+                            <h3>
+                                <a href="index.html"><img src="img/voltar.png" class="indicadores" /> </a>
+                                Cadastre -se
+                            </h3>
+                        </span>
+
+
+
+
+                        <form>
+                            <div class="container-1">
+                                <div class="box-1">
+                                    <div class="input-box ">
+                                        <input class=" textchild-estilo" id="telefone" name="name" maxlength="50"
+                                            required type="text" />
+                                        <label class="textchild-estilo" for="telefone">Nome</label>
+                                    </div>
+                                    <br>
+
+                                    <div class="input-box  ">
+                                        <input class=" textchild-estilo" id="telefone" name="telefone" maxlength="50"
+                                            required type="phone" />
+                                        <label class="textchild-estilo" for="telefone">Telefone</label>
+                                    </div>
+                                    <br>
+
+                                    <div class="input-box-2">
+                                        <label class="texto-tipo">Tipo de perfil</label>
+                                        <select class="textchild-estilo" id="alteraSenha">
+                                            <option class="textchild-estilo" value="Sim">
+                                                Recrutador
+                                            </option>
+                                            <option value="Não">
+                                                Candidato
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <br>
+
+
+                                    <div class="input-box">
+                                        <input class=" textchild-estilo" id="novaSenha" name="novaSenha" maxlength="50"
+                                            required type="password" />
+                                        <label class="textchild-estilo" for="novaSenha">Senha</label>
+                                    </div>
+
+                                    <br>
+
+
+                                </div>
+
+
+
+                                <div class="box-2">
+                                    <div class="input-box">
+                                        <input class=" textchild-estilo" id="novoEmail" name="novoEmail" maxlength="50"
+                                            required type="email" />
+                                        <label class="textchild-estilo" for="novoEmail">Email</label>
+                                    </div>
+
+
+                                    <br>
+
+
+                                    <div class="input-box">
+                                        <input class=" textchild-estilo" id="senha" name="senha" maxlength="50" required
+                                            type="text" />
+                                        <label class="textchild-estilo" for="senha">Ocupação</label>
+                                    </div>
+                                    <br>
+
+                                    <div class="input-box">
+                                        <input class=" textchild-estilo" id="novaSenha" name="novaSenha" maxlength="50"
+                                            required type="password" />
+                                        <label class="textchild-estilo" for="novaSenha">Confirmar Senha</label>
+                                    </div>
+
+                                    <br>
+
+                                    <button type="submit" class="botao" id="nextPage"> <a href="login.html"
+                                            class="nav-item nav-link">Finalizar</a></button>
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
+
+
+</body>
+
+</html>
