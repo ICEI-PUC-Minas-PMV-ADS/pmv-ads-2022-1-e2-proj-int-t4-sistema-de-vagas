@@ -42,3 +42,25 @@
 ![Doc Templatepadrao7](https://user-images.githubusercontent.com/90798113/175449445-58c0c25e-e6d0-458e-9a4d-e4b4f6484d4a.png)
 
 ![Fim](https://user-images.githubusercontent.com/90798113/175449484-1863a79e-7a96-48af-9768-f51b4a79dbea.png)
+
+
+# Video da solução
+
+https://user-images.githubusercontent.com/90798113/173213484-f3177bc9-d11b-4a09-9552-7563e314879e.mp4
+
+https://user-images.githubusercontent.com/90798113/173213487-86cc6800-4761-481d-873a-ace05c7e6058.mp4
+
+https://user-images.githubusercontent.com/90798113/173213488-eb5139b1-77c5-4f82-ac6c-d4784040a106.mp4
+
+https://user-images.githubusercontent.com/90798113/173213490-b4f4b8d2-703a-4eb9-ba38-2c1ed1563a40.mp4
+
+https://user-images.githubusercontent.com/90798113/173213494-f651b056-df5d-4f25-9fc7-7f5dd32c6b4f.mp4
+
+https://user-images.githubusercontent.com/90798113/173213496-fcaf6625-9d88-4acb-a570-21e934e53daa.mp4
+
+https://user-images.githubusercontent.com/90798113/173213497-febd3707-9973-4db2-ba8a-8f1e16ef6d03.mp4
+
+https://user-images.githubusercontent.com/90798113/173213501-73f679c1-9ced-4a09-be5a-39560f5d3fb0.mp4
+
+
+
